@@ -1,5 +1,5 @@
 var http=require ('http');
-var port=process.env.PORT || 3000 ;
+var port=process.env.PORT || 10255 ;
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -8,8 +8,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose=require('mongoose');
 var Cookies = require( "cookies" );
-var port=process.env.PORT || 3000 ;
-var dburl='mongodb://student:senteam15@ds011389.mlab.com:11389/courseaid';
+var port=process.env.PORT || 10255 ;
+var dburl='mongodb://portaltechnologics-server:frHFtTzsDnXiePXeRp6lNL4f3omNUpUpuk0zKom08myfeLiRJQIxxJEuad0eRagX9nThg0sB1tIxACDbME0weA==@portaltechnologics-server.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@portaltechnologics-server@';
 mongoose.connect(dburl);
 
 var Authentication = require('./routes/private/Authentication');
