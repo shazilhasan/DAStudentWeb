@@ -41,7 +41,7 @@
     "underscore.string": "^3.2.2",
     "url": "^0.11.0",
     "validator": "^4.1.0",
-    "xls-to-json": "^0.3.2",
-    "xlsx-to-json": "^0.2.4"
+    "xls-to-json": "^2.1.1",
+    "xlsx-to-json": "^0.3.0"
   }
 }
